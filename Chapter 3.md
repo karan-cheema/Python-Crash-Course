@@ -167,3 +167,8 @@ print(everything)
 everything.sort(reverse=True)
 print(everything)
 ```
+Challenge 3.11
+```python
+index_error = []
+print(index_error[-1])
+```
