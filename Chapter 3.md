@@ -76,3 +76,94 @@ del guest_list[0]
 del guest_list[0]
 print(guest_list)
 ```
+Challenge 3.4. Names: Store the names of a few of your friends in a list called names.
+```python
+guest_list = ["Michael Jordan", "Victoria Becham", "Kanye West"]
+print(f"Hi {guest_list[0]}, you are invited to attend our dinner.")
+print(f"Hi {guest_list[1]}, you are invited to attend our dinner.")
+print(f"Hi {guest_list[2]}, you are invited to attend our dinner.")
+```
+Challenge 3.5. Changing Guest  List:
+```python
+not_coming = "Kanye West"
+new_person = "Jeananne Goossen"
+print(f"Hi guests, I got some news for you. {not_coming} is not coming to the party, but don't be sad as we are now inviting {new_person} for the dinner.")
+
+guest_list.remove(not_coming)
+guest_list.insert(2, new_person)
+print(guest_list)
+
+print(f"Hi {guest_list[0]}, you are invited to attend our dinner.")
+print(f"Hi {guest_list[1]}, you are invited to attend our dinner.")
+print(f"Hi {guest_list[2]}, you are invited to attend our dinner.")
+```
+Challenge 3.6. 
+```python
+guest_list.insert(0, "Hugh Laurie")
+guest_list.insert(1, "Kate Winslet")
+guest_list.append("Mary-Louise Parker")
+print(f"Hi {guest_list[0]}, we would like you to know that you are invited for our dinner.")
+print(f"Hi {guest_list[1]}, we would like you to know that you are invited for our dinner.")
+print(f"Hi {guest_list[2]}, we would like you to know that you are invited for our dinner.")
+print(f"Hi {guest_list[3]}, we would like you to know that you are invited for our dinner.")
+print(f"Hi {guest_list[4]}, we would like you to know that you are invited for our dinner.")
+print(f"Hi {guest_list[5]}, we would like you to know that you are invited for our dinner.")
+```
+Challenge 3.7
+```python
+print("UPDATE: Only two guests can be invited for our dinner.")
+guest_removed = guest_list.pop()
+print(f"We are really sorry {guest_removed} but due to unfortunate events we have to recede your dinner invite")
+guest_removed = guest_list.pop()
+print(f"We are really sorry {guest_removed} but due to unfortunate events we have to recede your dinner invite")
+guest_removed = guest_list.pop()
+print(f"We are really sorry {guest_removed} but due to unfortunate events we have to recede your dinner invite")
+guest_removed = guest_list.pop()
+print(f"We are really sorry {guest_removed} but due to unfortunate events we have to recede your dinner invite")
+print(f"Hi {guest_list[0]}, you are still invited to our dinner.")
+print(f"Hi {guest_list[1]}, you are still invited to our dinner.")
+del guest_list[0]
+del guest_list[0]
+print(guest_list)
+```
+Challenge 3.8
+```python
+places = ["United States of America", "Martinique", "Cook Islands", "Brunei Darussalam", "Mauritania"]
+print(places)
+print(sorted(places))
+print(places)
+print(sorted(places, reverse=True))
+print(places)
+places.reverse()
+print(places)
+places.reverse()
+print(places)
+places.sort()
+print(places)
+places.sort(reverse=True)
+```
+Challenge 3.9
+```python
+guest_list = ["Michael Jordan", "Victoria Becham", "Kanye West"]
+print(len(guest_list))
+```
+Challenge 3.10
+```python
+everything = ["quicksand", "economic", "puzzling", "rest", "drink"]
+everything.append("unsightly")
+everything.insert(2, "troubled")
+print(everything)
+everything_popped = everything.pop()
+print(everything_popped)
+del everything[2]
+print(everything)
+print(sorted(everything))
+print(sorted(everything, reverse=True))
+everything.reverse()
+print(everything)
+everything.reverse()
+everything.sort()
+print(everything)
+everything.sort(reverse=True)
+print(everything)
+```
