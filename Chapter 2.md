@@ -38,3 +38,24 @@ random_name = " \t\nAnonymous "
 random_name.rstrip()
 random_name.lstrip()
 random_name.strip()
+```
+Challenge 2.8: Write addition, subtraction, multiplication, and division resulting in answer 8
+```python
+print(3+5)
+print(12-4)
+print(4*2)
+print(16/2)
+```
+Challenge 2.9: Use a variable to represent your favourite number. Then, using that variable, create a message that reveals your favourite number. Print the message.
+```python
+favourite_number = 7
+print(f"My favourite number is: {favourite_number}")
+```
+Challenge 2.10: Add a comment
+```python
+# This is an example of a comment
+```
+Challenge 2.11: Zen of Python
+```
+import this
+```
