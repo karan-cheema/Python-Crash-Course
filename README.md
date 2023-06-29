@@ -16,3 +16,30 @@ print(message)
 message = "I love coding"
 print(message)
 ```
+Challenge 2.3: **Personal Message** - 
+```python
+name = "Anonymous"
+print(f"Hello {name}, would you like to learn some Python today?")
+```
+Challenge 2.4: **Name Cases** -
+```python
+name = "Anonymous"
+print(name.lower())
+print(name.upper())
+print(name.title())
+```
+Challenge 2.5: **Famous Quote:**
+```python
+print('\n\tAlber Einstein once said, "A person who never made a\n\tnever tried anything new."')
+```
+Challenge 2.6: **Famous Quote 2:**
+```python
+famous_person  = "Alber Einstein"
+print(f'\n\t{famous_person} once said, "A person who never made a\n\tnever tried anything new."')
+```
+Challenge 2.7: **Stripping Name:**
+```python
+random_name = " \t\nAnonymous "
+random_name.rstrip()
+random_name.lstrip()
+random_name.strip()
