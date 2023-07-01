@@ -56,7 +56,6 @@ Challenge 4.9. Cube Comprehension:
 cubes = [value ** 3 for value in range(1, 10)]
 print(cubes)
 ```
-## Chapter 4: Working With Lists
 Challenge 4.10. Slices:
 ```python
 list = ["Pez", "Candy corn", "Twizzlers", "Jawbreakers", "Nik-L-Nips", "Peeps", "Pocky", "Red Vines", "Cotton candy", "Gummi Bears", "Pop Rocks", "Wax lips", "Circus peanuts", "Toblerone", "Blue chips"]
