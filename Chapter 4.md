@@ -80,3 +80,16 @@ for pizza in friend_pizzas:
 ```
 Challenge 4.12. More Loops
 **TO BE COMPLETED**
+
+Challenge 4.13. Buffet:
+```python
+food = ("pasta", "gorgonzola", "peanut butter", "summer squash", "rabbits")
+for dish in food:
+    print(dish)
+
+food[0] = "pizza"
+
+food = ("pasta", "pizza", "peanut butter", "summer squash", "burger")
+for dish in food:
+    print(dish)
+```
