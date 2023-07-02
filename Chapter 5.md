@@ -68,3 +68,59 @@ alphabets = ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "echo"]
 print("alpha" in alphabets)
 print("india" in alphabets)
 ```
+## Chapter 5: If Statements
+Challenge 5.3. Alien Color 1:
+```python 
+alien_color = "yellow"
+if alien_color == "green":
+    print("You earned 5 points.")
+
+alien_color = "green"
+if alien_color == "green":
+    print("You earned 5 points.")
+```
+Challenge 5.4. Alien Color 2:
+```python
+alien = "yellow"
+if alien == "green":
+    print("You earned 5 points.")
+elif alien != "green":
+    print("You earned 10 points.")
+
+alien = "yellow"
+if alien == "green":
+    print("You earned 5 points.")
+else:
+    print("You earned 10 points.")
+```
+Challenge 5.5. Alien Color 3:
+```python
+alien = "yellow"
+if alien == "green":
+    print("You earned 5 points.")
+elif alien == "yellow":
+    print("You earned 10 points.")
+else:
+    print("You earned 15 points.")
+```
+Challenge 5.6. Changes of life:
+```python
+age = 34
+if age <= 2:
+    print("You are a baby.")
+elif age >= 2 and age < 4:
+    print("You are a toddler.")
+elif age >= 13 and age <= 20:
+    print("You are a toddler.")
+elif age >= 20 and age <= 65:
+    print("You are an adult.")
+else:
+    print("You are elder.")
+```
+Challenge 5.7. Favorite Fruit:
+```python
+favorite_fruit = ["mango", "apple", "dragon fruit"]
+if "mango" in favorite_fruit:
+    print("You really like mango.")
+
+```
