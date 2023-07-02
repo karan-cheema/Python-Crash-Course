@@ -7,4 +7,4 @@ Every chapter in this book contains challenges. Below you will find links to all
  - [Chapter 2 - Variables and Simple Data Types](https://github.com/karan-cheema/Python-Crash-Course/blob/main/Chapter%202.md)
  - [Chapter 3 - Introducing Lists](https://github.com/karan-cheema/Python-Crash-Course/blob/main/Chapter%203.md)
  - [Chapter 4 - Working With Lists](https://github.com/karan-cheema/Python-Crash-Course/blob/main/Chapter%204.md)
- - [Chapter 5 - If Statements]
+ - [Chapter 5 - If Statements](https://github.com/karan-cheema/Python-Crash-Course/blob/main/Chapter%205.md)
