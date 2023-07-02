@@ -68,7 +68,7 @@ alphabets = ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "echo"]
 print("alpha" in alphabets)
 print("india" in alphabets)
 ```
-## Chapter 5: If Statements
+
 Challenge 5.3. Alien Color 1:
 ```python 
 alien_color = "yellow"
