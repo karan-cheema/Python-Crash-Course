@@ -124,3 +124,36 @@ if "mango" in favorite_fruit:
     print("You really like mango.")
 
 ```
+Challenge 5.8. Hello Admin:
+```python 
+usernames = ["admin", "sasha", "alexus", "harper", "leland"]
+for user in usernames:
+    if user == "admin":
+        print("Hello admin, would you like a status update?")
+    else:
+        print(f"Hello {user}, thank you for logging in again.")
+```
+Challenge 5.9. No user:
+```python
+usernames = []
+if usernames:
+    for user in usernames:
+        if user == "admin":
+            print("Hello admin, would you like a status update?")
+        else:
+            print(f"Hello {user}, thank you for logging in again.")
+
+else:
+    print("We need to find more users.")
+```
+Challenge 5.10. Checking Usernames:
+```python
+current_users = ["Akira", "Kassidy", "Dahlia", "Daniela", "Yazmin"]
+new_users = ["Dahlia", "Daniela", "Dalton", "Ean", "Keith"]
+
+for new_user in new_users:
+    if new_user in current_users:
+        print("The username is already taken.")
+    else:
+        print("The username is available.")
+```
