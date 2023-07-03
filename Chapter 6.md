@@ -40,3 +40,26 @@ print(f"List:\n{glossary_item_2}")
 print(f"Dictionary:\n{glossary_item_3}")
 print(f"Conditional Statements:\n{glossary_item_4}")
 ```
+Challenge 6.4. Glossary 2:
+```python
+glossary = {
+    "print" : "Prints out the output in the terminal.",
+    "list" : "Lists are also known as arrays.",
+    "dictionary" : "The thing which you are currently looking at righ now.",
+    "conditional statements" : "Based on the specified conditions, the response will change.",
+    }
+for name, definition in glossary.items():
+    print(f"{name.title()}: {definition}")
+```
+Challenge 6.5. Rivers:
+```python
+rivers = {"Meghna" : "Bangladesh", "Ganges" : "India", "Irtysh" : "Russia", "Angara" : "Siberia", "Yukon" : "british Colombia"}
+for water, location in rivers.items():
+    print(f"The {water.title()} river flows through {location.title()}.")
+    
+for water in rivers.keys():
+    print(water)
+
+for location in rivers.values():
+    print(location)
+```
