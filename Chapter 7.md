@@ -62,3 +62,48 @@ x = 1
 while x <= 5:
     print(x)
 ```
+Challenge 7.8. Deli:
+```python
+finished_sandwiches = []
+sandwich_orders = ["bologna", "chili burger", "Chimichurris", "natmad", "Tramezzino"]
+while sandwich_orders:
+    sandwich = sandwich_orders.pop()
+    print(f"I made you a {sandwich}")
+    finished_sandwiches.append(sandwich)
+print("I made you the following sandwiches")
+for fin in finished_sandwiches:
+    print(fin)
+```
+Challenge 7.9. No Pastrami:
+```python
+finished_sandwiches = []
+sandwich_orders = ["bologna", "Pastrami", "chili burger", "Chimichurris", "Pastrami", "natmad", "Tramezzino", "Pastrami"]
+print("We have sadly ran out of Pastrami sandwiches.")
+while "Pastrami" in sandwich_orders:
+    sandwich_orders.remove("Pastrami")
+while sandwich_orders:
+    sandwich = sandwich_orders.pop()
+    print(f"I made you a {sandwich}")
+    finished_sandwiches.append(sandwich)
+print("I made you the following sandwiches")
+for fin in finished_sandwiches:
+    print(fin)
+```
+Challenge 7.10. Dream Vacation:
+```python
+responses = {}
+polling_status = True
+
+while polling_status:
+    name = input("What is your name? ")
+    location = input("If you could visit one place, where would you go? ")
+    responses[name] = location
+    repeat = input("Would you like to let another person respond? Yes or No? ")
+    
+    if repeat == "No":
+        polling_status = False
+
+print("Poll result are as follows:")
+for loc in responses.values():
+    print(loc)
+```
