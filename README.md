@@ -10,3 +10,4 @@ Every chapter in this book contains challenges. Below you will find links to all
  - [Chapter 5 - If Statements](https://github.com/karan-cheema/Python-Crash-Course/blob/main/Chapter%205.md)
  - [Chapter 6 - Dictionaries](https://github.com/karan-cheema/Python-Crash-Course/blob/main/Chapter%206.md)
  - [Chapter 7 - User Input and While Loops](https://github.com/karan-cheema/Python-Crash-Course/blob/main/Chapter%207.md)
+ - [Chapter 8 - Functions](https://github.com/karan-cheema/Python-Crash-Course/blob/main/Chapter%208.md)
