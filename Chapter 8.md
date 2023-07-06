@@ -69,4 +69,13 @@ print(album_3)
 
 ```
 
-Challenge 8.8. 
+Challenge 8.9. Messages:
+```python
+message = ["Random message 1", "Random message 2", "Random message 3", "Random message 4"]
+
+def read_message(message):
+    for mess in message:
+        print(mess)
+        
+read_message(message)
+```
