@@ -41,3 +41,11 @@ print(f"Hello, {user1.first} {user1.last} your {user1.email} and your age is {us
 print(f"Hello, {user2.first} {user2.last} your {user2.email} and your age is {user2.age}.")
 print(f"Hello, {user3.first} {user3.last} your {user3.email} and your age is {user3.age}.")
 ```
+Challenge 9.4. Number Served:
+```python
+
+```
+Challenge 9.5. Login Attempts:
+```python
+
+```
